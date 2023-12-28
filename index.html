@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Patagonia Product Query</title>
+<style>
+ body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e0e0e0;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  background-color: #ffffff;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h2 {
+  color: #005b96;
+}
+
+.input-group {
+  margin: 20px 0;
+}
+
+.input-group input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.input-group input[type="button"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-group input[type="button"]:hover {
+  background-color: #005f73;
+}
+
+</style>
+</head>
+<body>
+  <div class="container">
+    <h2>Patagonia Product Info</h2>
+    <div class="input-group">
+      <label for="qr-code">Scan QR Code</label>
+      <input type="text" id="qr-code" placeholder="Scan or enter code">
+    </div>
+    <div class="input-group">
+      <a href="patagonia_product_details_page2.html"><input type="button" value="Submit"></a>
+    </div>
+  </div>
+</body>
+</html>
